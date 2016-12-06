@@ -2,3 +2,11 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.header-dev {
+    text-align: center;
+}
+
+.switch {
+    text-align: center;
+}

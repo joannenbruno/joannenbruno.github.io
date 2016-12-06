@@ -3,8 +3,8 @@
 		.module('portfolioApp')
 		.controller('DeveloperController', ['$scope', '$location', '$anchorScroll',
 			function($scope, $location, $anchorScroll) {
-				// initialize materialbox
-				$('.materialboxed').materialbox();
+				// initialize parallax
+                $('.parallax').parallax();
 				
 				// set page class
 				$scope.pageClass = 'developer';
