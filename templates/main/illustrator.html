@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<header>
-    <div>
-        <h1>Joanne N. Bruno</h1>
-        <a href="">Artist</a>
-    </div>
-</header>
+<div class="header-content-art section">
+    <header class="header-art">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img" src="images/JB_Logo_Blue.svg" alt="brand_logo">
+                    </div>
 
-<div class="container">
-
-    <!-- Switch -->
+                    <div class="col s6 push-s1 site-title-art">
+                        <h1>Joanne N. Bruno</h1>
+                        <h5>Software Developer Designer + Concept Artist</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--switch-->
     <div class="switch checked">
         <label ng-click="go('/developer')">
       Developer
@@ -18,13 +26,88 @@
     </label>
     </div>
 
-    <h1>Selection of Artworks</h1>
-    <hr>
-
-    <div class="row">
-        <!--<div class="col s12 m6" ng-repeat="image in images">
-            <responsive-image></responsive-image>
-        </div>-->
-    </div>
-
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="dist/images/illustrator/artworks/innerturmoil.jpg">
+                    <span class="card-title">Inner Turmoil</span>
+                </div>
+                <div class="card-content">
+                    <p>Copic Marker on Smooth Bristol</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="dist/images/illustrator/artworks/corvus.jpg">
+                    <span class="card-title" style="color:#207178">Corvus</span>
+                </div>
+                <div class="card-content">
+                    <p>Colored Pencil on Strathmore Mixed Media</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="dist/images/illustrator/artworks/iris.jpg">
+                    <span class="card-title">Iris</span>
+                </div>
+                <div class="card-content">
+                    <p>Copic Marker on Smooth Bristol</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Made with &#60;3 using:</h5>
+
+                <div class="row">
+                    <div class="col s2">
+                        <img src="images/icons/HTML5CSS3Logos.svg" class="footer-language-logos" alt="HTML5 and CSS3">
+                    </div>
+                    <div class="col s2 pull-s1">
+                        <img src="images/icons/AngularJS.png" class="footer-language-logos" alt="Angular JS">
+                    </div>
+                    <div class="col s1 pull-s2" style="padding-left:20px">
+                        <img src="images/icons/gulp.svg" class="footer-language-logos" alt="Gulp">
+                    </div>
+                    <div class="col s2 pull-s2">
+                        <img src="images/icons/materialize.png" class="footer-language-logos" alt="materialize">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Let's Chat!</h5>
+                <ul>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="joannenbruno@gmail.com"><img src="images/icons/gmail.png" alt="Gmail"></a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/joannenbruno"><img src="images/icons/linkedin-box.png" alt="LinkedIn"></a>
+                    </li>
+                    <a class="grey-text text-lighten-3" href="https://www.instagram.com/joannaartista/"><img src="images/icons/instagram.png" alt="Instagram"></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Joanne N. Bruno
+        </div>
+    </div>
+</footer>

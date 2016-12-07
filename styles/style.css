@@ -3,18 +3,28 @@
   }
         
 
-.site-title {
+.site-title-dev {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.site-title-art {
     display: inline-block;
     vertical-align: middle;
     color: #174C4F;
 }
 
 .header-content-dev {
+    background-color:  #207178;
+}
+.header-content-art {
     background-color:  #FFE184;
-    background-image: url(images\dark-wood.png);
 }
 
 .header-dev {
+    text-align: center;
+}
+.header-art {
     text-align: center;
 }
 
