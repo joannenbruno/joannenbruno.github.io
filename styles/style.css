@@ -6,10 +6,12 @@
 .site-title {
     display: inline-block;
     vertical-align: middle;
+    color: #174C4F;
 }
 
 .header-content-dev {
-    background-color: #FFE184;
+    background-color:  #FFE184;
+    background-image: url(images\dark-wood.png);
 }
 
 .header-dev {
@@ -18,4 +20,20 @@
 
 .switch {
     text-align: center;
+}
+.page-footer {
+    background-color: #207178 !important;
+}
+.btn-large {
+    background-color: #207178 !important;
+}
+.parallax-div {
+    background-color: #FF9666 !important;
+}
+
+.footer-language-logos {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
 }
