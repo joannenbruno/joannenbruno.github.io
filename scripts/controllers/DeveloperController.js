@@ -6,6 +6,9 @@
 				// initialize parallax
                 $('.parallax').parallax();
 				
+                //initialize side nav
+                $(".button-collapse").sideNav();
+                
 				// set page class
 				$scope.pageClass = 'developer';
 

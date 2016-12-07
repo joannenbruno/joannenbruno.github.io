@@ -1,6 +1,15 @@
+  html {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+        
+
 .site-title {
     display: inline-block;
     vertical-align: middle;
+}
+
+.header-content-dev {
+    background-color: #FFE184;
 }
 
 .header-dev {
