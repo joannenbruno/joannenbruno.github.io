@@ -23,9 +23,9 @@
 		    templateUrl: 'templates/projects/sickbay.html',
 		    controller: 'DeveloperController'
 		  })
-		  .state('metadata', {
-		    url: '/metadata',
-		    templateUrl: 'templates/projects/metadata.html',
+		  .state('medidata', {
+		    url: '/medidata',
+		    templateUrl: 'templates/projects/medidata.html',
 		    controller: 'DeveloperController'
 		  })
 		  .state('etude', {
